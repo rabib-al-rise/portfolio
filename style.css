@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(18, 18, 62);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(25, 25, 107);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;  
+}
+nav ul li a{
+    text-decoration: none;
+    color: white; 
+}
+nav ul li a:hover{
+    
+    color: rgb(153, 153, 226); 
+    font-size: 1.04rem;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+.firstsection > div{
+    width: 30%;
+    margin: 30px 0;
+}
+.leftsection{
+    font-size: 3rem;
+}
+.rightsection img{
+    width: 100%;    
+}
+.purple{
+    color: rgb(170, 107, 228);
+}
+.text-gray{
+    color: gray;
+}
+#element{
+    color: rgb(170, 107, 228);
+}
+.aboutMe{
+    max-width: 80vw;
+    margin: auto;
+}
+.aboutMe h2{
+    font-size: 1.9rem;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+    
+}
+.secondsection .box{
+    background: white;
+    max-width: 95%;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 128px;
+}
+.image-top{
+    width: 33px;
+    position: relative;
+    top: -36px;
+    left: -9px;
+
+}
+
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 180px;
+    font-size: 16px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 180px;
+    font-size: 14px;
+}
+  footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25, 25, 107);
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  @media only screen and (max-width: 1500px) {
+    .secondsection .box{
+        max-width: 95%;
+        height: 2px;
+    }
+  }
+
+
+
+.contactme h2{
+    font-size: 1.9rem;
+    margin-left: 42%;
+}
+  .container {
+      width: 100%;
+      background:rgb(170, 107, 228);
+      margin:auto;
+  }
+  .container h2{
+    font-size: 1.9rem;
+  }
+
+  .container .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 25px 20px;
+  }
+
+  .content .image-box {
+      max-width: 55%;
+  }
+
+  .content .image-box img {
+      width: 50%;
+      padding-left: 12rem;
+  }
+
+  .content .topic {
+      font-size: 22px;
+      font-weight: 500;
+      color: white;
+  }
+
+  .content form {
+      width: 40%;
+      margin-right: 30px;
+  }
+
+  .content .input-box {
+      height: 50px;
+      width: 80%;
+      margin: 16px 0;
+      position: relative;
+  }
+
+  .content .input-box input {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 6px;
+      font-size: 16px;
+      outline: none;
+      padding-left: 16px;
+      background: rgb(232, 244, 255);
+      border: 2px solid transparent;
+      transition: all 0.3s ease;
+  }
+
+  .content .input-box input:focus,
+  .content .input-box input:valid {
+      border-color: dodgerblue;
+      background-color: #fff;
+  }
+
+  .content .input-box label {
+      position: absolute;
+      left: 18px;
+      top: 50%;
+      color: black;
+      font-size: 15px;
+      pointer-events: none;
+      transform: translateY(-50%);
+      transition: all 0.3s ease;
+  }
+
+  .content .input-box input:focus~label,
+  .content .input-box input:valid~label {
+      top: 0;
+      left: 12px;
+      display: 14px;
+      color: black;
+      background: #fff;
+  }
+
+  .content .message-box {
+      min-height: 100px;
+      position: relative;
+  }
+
+  .content .message-box textarea {
+      position: absolute;
+      height: 100%;
+      width: 83%;
+      font-size: 15px;
+      resize: none;
+      background: rgb(232, 244, 255);
+      border: 2px solid transparent;
+      border-radius: 6px;
+      outline: none;
+      transition: all 0.3s ease;
+  }
+
+  .content .message-box textarea:focus {
+      border-color: rgb(18, 98, 179);
+      background-color: #fff;
+  }
+
+  .content .message-box label {
+      position: absolute;
+      font-size: 16px;
+      color: #060f14;
+      left: 18px;
+      top: 6px;
+      pointer-events: none;
+      transition: all 0.3s ease;
+  }
+
+  .content .message-box textarea:focus~label {
+      left: 12px;
+      top: -10px;
+      color: rgba(15, 113, 211, 0.774);
+      font-size: 14px;
+      background: #fff;
+  }
+
+  .content .input-box input[type="submit"] {
+      color: #fff;
+      background: rgb(25, 25, 107);
+      padding-left: 0;
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+      letter-spacing: 1px;
+      width: 105%;
+      transition: all 0.3s ease;
+  }
+
+  .content .input-box input[type="submit"]:hover {
+      background-color: rgb(14, 70, 126);
+  }
+
+
+
+
+  
